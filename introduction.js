@@ -40,3 +40,9 @@
 // decrement--;
 // decrement-=1;
 // console.log(increment, decrement)
+
+
+/** working on Strings */
+const string = "hello world"
+
+console.log(string.length);
