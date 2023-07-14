@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random number game - level</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>Select your level</header>
+      <div class="input-field">
+        <form id="form">
+          <div>
+            <input type="radio" name="level" id="level1" value="1" />
+            <label for="level1">level 1 (random goes from 1-100)</label>
+          </div>
+          <div>
+            <input type="radio" name="level" id="level2" value="2" />
+            <label for="level2">level 2 (random goes from 1-1000)</label>
+          </div>
+          <div>
+            <input type="radio" name="level" id="level3" value="3" />
+            <label for="level3">level 3 (random goes from 1-10000)</label>
+          </div>
+          <button type="submit" class="play">Play</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="level.js"></script>
+  </body>
+</html>

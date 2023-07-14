@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random number game - game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        Guess a number from 1 to
+        <span id="max-number"></span>
+      </header>
+      <p class="guess"></p>
+      <div class="input-field">
+        <input type="number" />
+        <button>Check</button>
+      </div>
+      <p>You have <span class="chances">10</span> chances</p>
+    </div>
+
+    <div id="checklevel"></div>
+    <script src="game.js"></script>
+  </body>
+</html>
