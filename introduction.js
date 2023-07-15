@@ -61,4 +61,4 @@ console.log(myArr);
 
 console.log(myArr.some((i)=>(i=true)))
 
-// console.log(myArr);
+console.log(myArr);
